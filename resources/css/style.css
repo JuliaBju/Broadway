@@ -9,7 +9,7 @@ h1 {
 }
 
 
-h3 {
+h3.process {
   font-size: 32px;
 }
 
@@ -19,14 +19,43 @@ h4 {
 }
 
 
-.menu {
-  font-size: 18px;
+.header_bottom {
+  font-size: 32px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+  color: white;
 }
+
+
+.menu {
+  text-decoration: underline;
+}
+
 
 .exp {
   font-size: 14px;
 }
+
+
 #header {
   background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
   color: white;
+}
+
+
+#header.menu {
+    font-size: 18px;
+}
+
+
+#footer {
+  font-size: 11px;
+  color: white;
+  background-color: dimgray;
+  text-align: left;
+}
+
+
+#footer.menu {
+    text-decoration: underline;
+    font-size: 11px;
 }
